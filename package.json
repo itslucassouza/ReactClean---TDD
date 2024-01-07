@@ -23,8 +23,6 @@
     "cz": "cz"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.17",
-    "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^8.5.2",

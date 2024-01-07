@@ -33,6 +33,8 @@
     }
   },
   "rules": {
+    "max-classes-per-file": "off",
+    "no-useless-constructor": "off",
     "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
