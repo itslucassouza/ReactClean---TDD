@@ -35,6 +35,7 @@
   "rules": {
     "max-classes-per-file": "off",
     "no-useless-constructor": "off",
+    "import/no-extraneous-dependencies": "off",
     "no-use-before-define": "off",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
