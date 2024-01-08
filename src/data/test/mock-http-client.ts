@@ -6,7 +6,9 @@ import { HttpResponse, HttpStatusCode } from '../protocols/http/http-response';
 
 export class HttpPostClientSpy<T, R> implements HttpPostClient<T, R> {
   url?: string;
+
   body?: T;
+
   response: HttpResponse<R> = {
     statusCode: HttpStatusCode.ok,
   };
