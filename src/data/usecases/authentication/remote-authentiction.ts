@@ -24,8 +24,8 @@ export class RemoteAuthentication implements Authentication {
     });
 
     switch (httpResponse.statusCode) {
-      // @ts-ignore
       case HttpStatusCode.ok:
+        // @ts-ignore
         return httpResponse.body;
       case HttpStatusCode.unathorized:
         throw new InvalidCredentialsError();
