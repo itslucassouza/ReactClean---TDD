@@ -1,5 +1,7 @@
+import Login from './presentation/pages/login';
+
 function App(): JSX.Element {
-  return <p>sadgsgydgyus</p>;
+  return <Login />;
 }
 
 export default App;

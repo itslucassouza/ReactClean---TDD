@@ -1,3 +1,11 @@
+import './login-styles.css';
+
 export function Login() {
-  return <p>Helllo clean arch</p>;
+  return (
+    <div className="login">
+      <p>Hello App</p>
+    </div>
+  );
 }
+
+export default Login;
