@@ -14,21 +14,29 @@ $primaryLight: #BC477B;
 
 body {
     background-color: $background;
+    height: 100vh;
 }
 
 
 .login {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    header {
+        background-color: $primary;
+        background-color: $primary;
+
+    }
+    
 }
 
-.header {
-
-}
 
 .form {
 
 }
 
-.footer {
-    
+footer {
+    background-color: $primary;
+    height: 40px;
 }

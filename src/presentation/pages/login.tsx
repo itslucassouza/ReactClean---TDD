@@ -1,9 +1,11 @@
-import './login-styles.css';
+import './login-styles.scss';
 
 export function Login() {
   return (
     <div className="login">
-      <p>Hello App</p>
+      <header>aa</header>
+      <form className="form">aasdas</form>
+      <footer></footer>
     </div>
   );
 }
