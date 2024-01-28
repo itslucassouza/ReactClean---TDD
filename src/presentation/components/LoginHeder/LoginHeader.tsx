@@ -1,6 +1,6 @@
+import { memo } from 'react';
 import { Logo } from '../logo/Logo';
 import './login-header-styles.scss';
-import { memo } from 'react';
 
 function LoginHeder() {
   return (

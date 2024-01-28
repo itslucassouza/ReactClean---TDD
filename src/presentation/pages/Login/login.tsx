@@ -1,7 +1,7 @@
-import LoginHeader from '../components/LoginHeder/LoginHeader';
-import Footer from '../components/Footer/Footer';
-import { Spiner } from '../components/spiner/spiner';
+import LoginHeader from '../../components/LoginHeder/LoginHeader';
+import Footer from '../../components/Footer/Footer';
 import './login-styles.scss';
+import { FormStatus } from '../../components/FormStatus';
 
 export function Login() {
   return (
@@ -16,10 +16,7 @@ export function Login() {
           Entrar
         </button>
         <span className="link">Criar conta</span>
-        <div className="errorWrap">
-          <Spiner className="spinner" />
-          <span className="error">Error</span>
-        </div>
+        <FormStatus />
       </form>
       <Footer />
     </div>
